@@ -13,3 +13,5 @@ gem 'coderay', '~> 1.1', '>= 1.1.3'
 gem 'rack-test', '~> 2.1'
 gem 'typewrite', '~> 1.1'
 gem 'webmock', '~> 3.19', '>= 3.19.1'
+
+gem "rake", "~> 13.1"
