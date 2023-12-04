@@ -55,8 +55,5 @@ DEPENDENCIES
   typewrite (~> 1.1)
   webmock (~> 3.19, >= 3.19.1)
 
-RUBY VERSION
-   ruby 3.2.2p53
-
 BUNDLED WITH
    2.4.10
