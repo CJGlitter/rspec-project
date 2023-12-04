@@ -39,7 +39,7 @@ RSpec.describe 'Random Name generator' do
   it 'handles an unsuccessful api call' do
     stub_request(:get, 'https://randomuser.me/api/')
       .to_return(
-        status: 201,
+        status: 500,
         body: {
           'results' => [
             'name' => {
